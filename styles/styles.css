@@ -27,11 +27,29 @@ section#phone {
     background: url('../images/frame-iphone.png') no-repeat;
 }
 
-iframe#tela {
+iframe#screen {
     position: relative;
     top: 80px;
     left:23px;
     height: 471px;
     width: 266px;
     border-style: none;
+}
+
+section#social-media {
+    text-align: right;
+}
+
+.logo {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.768);
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.768);
+    transition: .4s;
 }
